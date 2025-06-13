@@ -1,0 +1,74 @@
+.header {
+  text-align: center;
+  padding: 2rem 0 4rem 0;
+  position: relative;
+}
+
+.awning-stripes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  background-image: repeating-linear-gradient(
+    90deg,
+    #dc2626 0px,
+    #dc2626 20px,
+    #ffffff 20px,
+    #ffffff 40px
+  );
+}
+
+.awning-curve {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  background-image: repeating-linear-gradient(
+    90deg,
+    #dc2626 0px,
+    #dc2626 20px,
+    #ffffff 20px,
+    #ffffff 40px
+  );
+  clip-path: ellipse(100% 100% at 50% 0%);
+}
+
+.header-content {
+  position: relative;
+  z-index: 10;
+  padding-top: 6rem;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -1px -1px 2px rgba(0,0,0,0.5);
+}
+
+.header-subtitle {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .header-content {
+    padding-top: 5rem;
+  }
+}
