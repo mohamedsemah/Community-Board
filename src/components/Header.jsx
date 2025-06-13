@@ -6,6 +6,14 @@ function Header() {
       <div className="awning-stripes"></div>
       <div className="awning-curve"></div>
 
+      <div className="logo-container">
+        <img
+          src="/umich-logo.png"
+          alt="University of Michigan Logo"
+          className="university-logo"
+        />
+      </div>
+
       <div className="header-content">
         <h1 className="header-title">University of Michigan Events</h1>
         <p className="header-subtitle">

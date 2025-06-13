@@ -4,6 +4,19 @@
   position: relative;
 }
 
+.logo-container {
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  z-index: 20;
+}
+
+.university-logo {
+  height: 110px;
+  width: auto;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+
 .awning-stripes {
   position: absolute;
   top: 0;
@@ -70,5 +83,14 @@
 
   .header-content {
     padding-top: 5rem;
+  }
+
+  .logo-container {
+    top: 0.5rem;
+    left: 1rem;
+  }
+
+  .university-logo {
+    height: 40px;
   }
 }
