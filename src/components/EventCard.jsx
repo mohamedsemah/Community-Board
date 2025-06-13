@@ -21,10 +21,17 @@ function EventCard({ event }) {
   return (
     <div className="event-card">
       <div className="card-image">
-        <div className="card-overlay"></div>
-        <div className="card-emoji">
-          {getEventEmoji(event.type)}
-        </div>
+        {event.image ? (
+          <img
+            src={event.image}
+            alt={event.title}
+            className="event-image"
+          />
+        ) : (
+          <div className="placeholder-image">
+            <span className="placeholder-text">No Image</span>
+          </div>
+        )}
       </div>
 
       <EventInfo event={event} />
