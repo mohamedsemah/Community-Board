@@ -14,7 +14,7 @@ The following **required** functionality is completed:
   - [x] Header/title describing the theme is displayed
 - [x] **At least 10 unique events or resources are displayed in a responsive card format**
   - [x] There are at least 10 cards displayed 
-  - [x ] The cards should be displayed in an organized format (ex. a grid, or in one line)
+  - [x] The cards should be displayed in an organized format (ex. a grid, or in one line)
   - [x] Each card should include some information about the event or resource
 
 
@@ -23,28 +23,21 @@ The following **optional** features are implemented:
 - [x] Buttons or links to a related resources are on each card component
   - [x] All cards have buttons or links in addition to text
 - [x] The site is responsive for both desktop and mobile formats
-  - [ ] Web app is shown in a mobile format
+  - [x] Web app is shown in a mobile format
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] List anything else that you added to improve the site's functionality!
+    *  Card hover effects and smooth animations - lift effects, image scaling, and interactive button transitions
+    *  University logo integration - UM logo in the header with awning-style design
+    *  Functional external link - clickable "events.umich.edu" that opens the real UM events website
+    *  Rich event information - capacity details, event type badges, and visual icons for dates/locations
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented required features: https://imgur.com/a/2ocLjQC
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app.
+GIF created with: https://cloudconvert.com/
 
 ## License
 
