@@ -117,10 +117,15 @@ function App() {
           ))}
         </div>
 
-        <footer className="footer">
+         <footer className="footer">
           <p>
             Go Blue! 〽️ For more events, visit{' '}
-            <a href="#" className="footer-link">
+            <a
+              href="https://events.umich.edu/"
+              className="footer-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               events.umich.edu
             </a>
           </p>
